@@ -12,7 +12,7 @@ import java.io.FileNotFoundException;
 public class TestStudentCode {
 
     private String[] sampleLines = readStringsFromFile("src\\main\\java\\sample.txt");
-    private String[] actualLines = readStringsFromFile("src\\main\\java\\inputs-day4.txt");
+    private String[] actualLines = readStringsFromFile("src\\main\\java\\inputs-day5.txt");
 
     @BeforeEach                                         
     public void setUp() throws Exception {
@@ -21,19 +21,20 @@ public class TestStudentCode {
     @Test                                               
     @DisplayName("partASample()")   
     public void testPartASample() {
-        System.out.println("***Testing to see if partA(lines) returns 2");
-        assertEquals(2, StudentCode.partA(sampleLines),      
-        "Should be 2");          
+        System.out.println("***Testing to see if partA(lines) returns 357");
+        assertEquals(357, StudentCode.partA(sampleLines),      
+        "Should be 357");          
     }
     
     @Test                                               
     @DisplayName("partAActual()")   
     public void testPartAActual() {
-        System.out.println("***Testing to see if partA(lines) returns 247");
-        assertEquals(247, StudentCode.partA(actualLines),      
-        "Should be 247");          
+        System.out.println("***Testing to see if partA(lines) returns 963");
+        assertEquals(963, StudentCode.partA(actualLines),      
+        "Should be 963");          
     }
 
+	/**
     @Test                                               
     @DisplayName("partBSample()")   
     public void testPartBSample() {
@@ -41,13 +42,14 @@ public class TestStudentCode {
         assertEquals(2, StudentCode.partB(sampleLines),      
         "Should be 2");          
     }
+	*/
     
     @Test                                               
     @DisplayName("partBActual()")   
     public void testPartBActual() {
-        System.out.println("***Testing to see if partB(lines) returns 145");
-        assertEquals(145, StudentCode.partB(actualLines),      
-        "Should be 145");          
+        System.out.println("***Testing to see if partB(lines) returns 592");
+        assertEquals(592, StudentCode.partB(actualLines),      
+        "Should be 592");          
     }
 
     /**
