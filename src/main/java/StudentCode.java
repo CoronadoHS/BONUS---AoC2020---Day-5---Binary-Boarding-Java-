@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class StudentCode {
     public static void main(String[] args) {
         // an example showing how to read the input from the sample.txt file into a list
-        String[] lines = readStringsFromFile("src\\main\\java\\sample.txt");  // change this filename when you are ready to run your program on the actual inputs
+        String[] lines = readStringsFromFile("src/main/java/sample.txt");  // change this filename when you are ready to run your program on the actual inputs
 
         /**
          *No real need to edit anything below here (other than partA and partB)
