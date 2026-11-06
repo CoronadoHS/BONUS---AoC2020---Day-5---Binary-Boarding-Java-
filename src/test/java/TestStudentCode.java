@@ -11,8 +11,8 @@ import java.io.FileNotFoundException;
 
 public class TestStudentCode {
 
-    private String[] sampleLines = readStringsFromFile("src\\main\\java\\sample.txt");
-    private String[] actualLines = readStringsFromFile("src\\main\\java\\inputs-day5.txt");
+    private String[] sampleLines = readStringsFromFile("src/main/java/sample.txt");
+    private String[] actualLines = readStringsFromFile("src/main/java/inputs-day5.txt");
 
     @BeforeEach                                         
     public void setUp() throws Exception {
